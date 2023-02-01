@@ -3,3 +3,4 @@
 	-typesRange
 	-Scanner
 	-Arithmetic/AreaOfTriangle
+	-QuadricEquation
