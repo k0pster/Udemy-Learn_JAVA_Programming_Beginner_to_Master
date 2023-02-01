@@ -21,6 +21,8 @@ public class QuadraticEquation {
         //wykonanie obliczeń
         x1 = (-b+Math.sqrt(b*b-4*a*c))/(2*a);
         x2 = (-b-Math.sqrt(b*b-4*a*c))/(2*a);
+        
+        //wyświetlenie wyniku
         System.out.println("Miejsca zerowe fukcji to x1:"+x1+" oraz x2:"+x2);
     }
 }
