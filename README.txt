@@ -4,3 +4,4 @@
 	-Scanner
 	-Arithmetic/AreaOfTriangle
 	-QuadricEquation
+	-EmailStringValidator
