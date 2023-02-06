@@ -7,3 +7,4 @@
 	-EmailStringValidator - ćw metod String
 	-WordsCounter - licznik słów w pobranym tekście
 	-LeapYear - sprawdzenie roku przestępnego
+	-SimpleCalculator - prosty kalkulator operacji na dwóch liczbach, z wykorzystaniem switch.
