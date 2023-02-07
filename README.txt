@@ -9,3 +9,5 @@
 	-LeapYear - sprawdzenie roku przestępnego
 	-SimpleCalculator - prosty kalkulator operacji na dwóch liczbach, z wykorzystaniem switch.
 	-Arthmetic/FactorialCalculator - kalkulator silni podanej liczby.
+	-ReverseNumber - Zwraca odwrotność podanej liczby
+	
