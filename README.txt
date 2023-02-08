@@ -11,3 +11,4 @@
 	-Arthmetic/FactorialCalculator - kalkulator silni podanej liczby.
 	-ReverseNumber - Zwraca odwrotność podanej liczby
 	-FibonachiSeries - podaje n kolejnych wytazów ciągu Fibonachiego
+	-MatrixCalculator = sumowanie dwóch wprowadzonych macierzy
