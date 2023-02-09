@@ -12,3 +12,4 @@
 	-ReverseNumber - Zwraca odwrotność podanej liczby
 	-FibonachiSeries - podaje n kolejnych wytazów ciągu Fibonachiego
 	-MatrixCalculator = sumowanie dwóch wprowadzonych macierzy
+	-OneDimArrayLotto - Losowanie Lotto/1D lista
