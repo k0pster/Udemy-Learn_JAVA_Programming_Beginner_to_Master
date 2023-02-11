@@ -13,3 +13,4 @@
 	-FibonachiSeries - podaje n kolejnych wytazów ciągu Fibonachiego
 	-MatrixCalculator = sumowanie dwóch wprowadzonych macierzy
 	-OneDimArrayLotto - Losowanie Lotto/1D lista
+	-isPrime - metoda zwracająca czy podana liczba jest liczbą pierwszą
