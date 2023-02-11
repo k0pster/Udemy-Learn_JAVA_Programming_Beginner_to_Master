@@ -14,3 +14,5 @@
 	-MatrixCalculator = sumowanie dwóch wprowadzonych macierzy
 	-OneDimArrayLotto - Losowanie Lotto/1D lista
 	-isPrime - metoda zwracająca czy podana liczba jest liczbą pierwszą
+	-maxInteger - metoda zwracająca najwięszky z podanych int metodą dynamiczną.
+	
