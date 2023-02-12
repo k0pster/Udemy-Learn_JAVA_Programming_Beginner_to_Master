@@ -15,5 +15,5 @@
 	-OneDimArrayLotto - Losowanie Lotto/1D lista
 	-isPrime - metoda zwracająca czy podana liczba jest liczbą pierwszą
 	-maxInteger - metoda zwracająca najwięszky z podanych int metodą dynamiczną.
-	-Geomtry - program liczący objętość i pole pow. figur płaskich / OOP style
+	-Geomtry - program liczący objętość i pole pow. figur płaskich / OOP style / get-er,set-er / ukryte zmienne
 	
