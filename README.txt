@@ -17,4 +17,6 @@
 	-maxInteger - metoda zwracająca najwięszky z podanych int metodą dynamiczną.
 	-Geomtry - program liczący objętość i pole pow. figur płaskich / OOP style / get-er,set-er / ukryte zmienne
 	-simplyShopping - program OOP style imiujący dodawanie produktów do sklepu.
+	-superClassConstrutor - krótki przykład korzystania z klas dziedziczący z pomocą referencji super /OOP style
+	-Overriding - krótki przykład ukazujący jak działa nadpisywanie metod w JAVA / OOP style
 	
