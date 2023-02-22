@@ -20,3 +20,4 @@
 	-superClassConstrutor - krótki przykład korzystania z klas dziedziczący z pomocą referencji super /OOP style
 	-Overriding - krótki przykład ukazujący jak działa nadpisywanie metod w JAVA / OOP style
 	-Singelton - klasa tworząca tlyko jeden obiekt / wywołanie obiektu prywatnego metodą statyczną
+	-StudentRollNo - generator unikalnego numeru studenta / zmienne private
