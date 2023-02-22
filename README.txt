@@ -19,4 +19,4 @@
 	-simplyShopping - program OOP style imiujący dodawanie produktów do sklepu.
 	-superClassConstrutor - krótki przykład korzystania z klas dziedziczący z pomocą referencji super /OOP style
 	-Overriding - krótki przykład ukazujący jak działa nadpisywanie metod w JAVA / OOP style
-	
+	-Singelton - klasa tworząca tlyko jeden obiekt / wywołanie obiektu prywatnego metodą statyczną
