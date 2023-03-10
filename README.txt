@@ -22,3 +22,4 @@
 	-Singelton - klasa tworząca tlyko jeden obiekt / wywołanie obiektu prywatnego metodą statyczną
 	-StudentRollNo - generator unikalnego numeru studenta / zmienne private
 	-throwThrowDemo - przekazywanie wyjątków Throws i tworznie własnej klasy wyjątków
+	-SimpleStackWithExceptions - wyjątki Throws / własne rozszerzone klasy wyjątków / uproszczony przykład stosu
