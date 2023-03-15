@@ -24,4 +24,4 @@
 	-throwThrowDemo - przekazywanie wyjątków Throws i tworznie własnej klasy wyjątków
 	-SimpleStackWithExceptions - wyjątki Throws / własne rozszerzone klasy wyjątków / uproszczony przykład stosu
 	-Multithreading - urchamianie dwóch klas jednocześnie / dziedzicząc klasę Thread
-	
+	-MultithreadingUsingRunnable - urchamianie dwóch programów jednocześnie / Użycie interfejsu Runnable
