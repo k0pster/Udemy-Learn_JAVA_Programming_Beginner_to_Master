@@ -1,21 +1,19 @@
 
 //obiekt drukujący litera po literze podany string
 class MyData {
-    public void display(String str)
+    synchronized public void display(String str)
     {
-        //dodajemy synchronized(this) aby uzyskać printowanie(korzystanie z obiektu) w kolejce,
+        //dodajemy synchronized do klasy aby uzyskać printowanie(korzystanie z obiektu) w kolejce,
         //jeden po drugim bez zapisu sunchronized
         //w efekcie otrzymam print "Hello WorldWelcome" czyli obiekt ten nie jest zsynchronizowany
         //i przez jednoczesne wykorzystanie obiektu przez kilka innych result czyli printy sa pomieszane
         //po użyciu synchronized otrzymamy najpierw wydruk z wyołania przez pierwszy obiekt nastepnie
         //kolejny wydruk z drugiego. Czyli wątki zostaną umieszone w kolejce i wywołane nie naraz a po kolei.
         //Jak to powinno wyglądać "Hello WorldWelcome"
-        synchronized(this)
-        {
             for (int i = 0; i < str.length(); i++) {
                 System.out.print(str.charAt(i));
             }
-        }
+
     }
 }
 //Tworzę dwa różne obiekty wątków Thread, które tworzą obiekt klasy MyData i wykorzystują metodę display() do wydrukowania
