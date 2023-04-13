@@ -25,3 +25,4 @@
 	-SimpleStackWithExceptions - wyjątki Throws / własne rozszerzone klasy wyjątków / uproszczony przykład stosu
 	-Multithreading - urchamianie dwóch klas jednocześnie / dziedzicząc klasę Thread
 	-MultithreadingUsingRunnable - urchamianie dwóch programów jednocześnie / Użycie interfejsu Runnable
+	-MultithreadingMonitor - zsynchronizowanie obiektów wykorzystujących ten sam obiekt / Sychnronized
