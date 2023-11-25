@@ -27,6 +27,7 @@
 	-MultithreadingUsingRunnable - urchamianie dwóch programów jednocześnie / Użycie interfejsu Runnable
 	-MultithreadingMonitor - zsynchronizowanie obiektów wykorzystujących ten sam obiekt / Sychnronized
 	-LambdaExpressions - ćwiczenie wyrażen lambda
-	-Stieams - ćwieczenia na stremach/ zapis/odczyt/edycja plików / Piped streamy - model producent/konsument z danych ale wykorzystuje piped stream
+	-Stieams - ćwieczenia na stremach/ zapis/odczyt/edycja plików / Piped streamy - model producent/konsument z danych ale wykorzystuje piped stream 
+		   / Serializacja czyli zapisywanie/odczytywanie obiektów do plików binarnych - Input/OutputSreams Input/OutpusObjects.
 
 	
