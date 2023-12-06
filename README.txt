@@ -29,5 +29,5 @@
 -LambdaExpressions - ćwiczenie wyrażen lambda
 -Stieams - ćwieczenia na stremach/ zapis/odczyt/edycja plików / Piped streamy - model producent/konsument z danych ale wykorzystuje piped stream / Serializacja czyli zapisywanie/odczytywanie obiektów do plików binarnych korzystając z Input/OutputSreams Input/OutpusObjects.
 -GenericClass - templete Listy dla defaultowych obiektów różnego rodzaju. Przechowuje obiekty różnych typów w jednej liści dziękiuzyciu klas generycznych object i array.
--CollectionFrameworks - ćwiczenia kolekcji: ArrayList,LinkedList, ArrayDeque.
+-CollectionFrameworks_ArrayList - ćwiczenia kolekcji: ArrayList,LinkedList, ArrayDeque.
 -CollectionFrameworks_Hashing - ćwiczenia kolekcji: HashSet,HashMap,TreeSet,TreeMap,LinkedHashMap,LinkedHashSet,ComparableInterface.
