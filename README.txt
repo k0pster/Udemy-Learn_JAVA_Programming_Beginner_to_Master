@@ -31,3 +31,4 @@
 -GenericClass - templete Listy dla defaultowych obiektów różnego rodzaju. Przechowuje obiekty różnych typów w jednej liści dziękiuzyciu klas generycznych object i array.
 -CollectionFrameworks_ArrayList - ćwiczenia kolekcji: ArrayList,LinkedList, ArrayDeque.
 -CollectionFrameworks_Hashing - ćwiczenia kolekcji: HashSet,HashMap,TreeSet,TreeMap,LinkedHashMap,LinkedHashSet,ComparableInterface.
+-MenuDrivenProgramForAccount - program konoslowy cwiczacy kolekcje: dodaje/usuwa konta dla użytkowników w formie Switch z użyciem Hashmapy, dane zapisuje/wczytuje do/z pliku tekstowego jako obiekty. 
