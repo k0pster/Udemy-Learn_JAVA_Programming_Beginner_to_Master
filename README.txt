@@ -34,7 +34,6 @@
 -MenuDrivenProgramForAccount - program konoslowy cwiczacy kolekcje: dodaje/usuwa konta dla użytkowników w formie Switch z użyciem Hashmapy, dane zapisuje/wczytuje do/z pliku tekstowego jako obiekty. 
 -DateAndTime - bilbioteki Date,Time,LocalDate,LocalDateTime
 -Networking - ćwiczenie połączeń klient-server. 
-      // ReverseEchoServer+Client - łączy klienta z serwerem i odsyła wysłany ciąg znaków w klawiaturze w formie odwróconej(Socket)
-      // MultiUserReverseEcho+Clients - to samo co poprzednio, ale łączy wielu klienta z serwerem(dzięki wielowątkowości/Threads) i odsyła im wysłany ciąg znaków w klawiaturze w formie     
-         odwróconej(Socket),wyświetlając ilość połączonych klientów
-      // UdpTypeServer+DatagramClient - łączy klienta z serwerem i odsyła wysłany ciąg znaków w klawiaturze w formie odwróconej(tuatj korzystamy z form DatagramSocket i DataGramPacket)
+// ReverseEchoServer+Client - łączy klienta z serwerem i odsyła wysłany ciąg znaków w klawiaturze w formie odwróconej(Socket)
+// MultiUserReverseEcho+Clients - to samo co poprzednio, ale łączy wielu klienta z serwerem(dzięki wielowątkowości/Threads) i odsyła im wysłany ciąg znaków w klawiaturze w formie odwróconej(Socket),wyświetlając ilość połączonych klientów
+// UdpTypeServer+DatagramClient - łączy klienta z serwerem i odsyła wysłany ciąg znaków w klawiaturze w formie odwróconej(tuatj korzystamy z form DatagramSocket i DataGramPacket)
