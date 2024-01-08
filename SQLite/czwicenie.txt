@@ -1,0 +1,133 @@
+sqlite> .open univ.db
+sqlite> .tables
+dept
+sqlite> create table students(roll integer primary key,name text,city text,deptno integer foreign key(deptno) references dept(deptno));
+Parse error: near "foreign": syntax error
+  er primary key,name text,city text,deptno integer foreign key(deptno) referenc
+                                      error here ---^
+sqlite> create table students(roll integer primary key,name text,city text,deptno integer, foreign key(deptno) references dept(deptno));
+sqlite> .tables
+dept      students
+sqlite> insert into dept values(10,'CSE');
+sqlite> insert into dept values(20,'ECE');
+sqlite> insert into dept values(30,'MEC');
+sqlite> select * from dept;
+10|CSE
+20|ECE
+30|MEC
+sqlite> pragma fereign_keys=ON;
+sqlite> insert into students values(1,'Ajay','Delhi',10);
+sqlite> insert into students values(2,'Arek','Poland',10);
+sqlite> select * from students;
+1|Ajay|Delhi|10
+2|Arek|Poland|10
+sqlite> select name from students;
+Ajay
+Arek
+sqlite> select roll,name from students;
+1|Ajay
+2|Arek
+sqlite> select roll,name,city from students;
+1|Ajay|Delhi
+2|Arek|Poland
+sqlite> select distinct dept from students;
+Parse error: no such column: dept
+  select distinct dept from students;
+                  ^--- error here
+sqlite> select distinct deptno from students;
+10
+sqlite> select * from students where city='Poland';
+2|Arek|Poland|10
+sqlite> select * from students where city<>'Poland';
+1|Ajay|Delhi|10
+
+
+sqlite> select * from students where name='Ajay';
+1|Ajay|Delhi|10
+sqlite> select * from students order by name;
+1|Ajay|Delhi|10
+2|Arek|Poland|10
+sqlite> select name from students order by name;
+Ajay
+Arek
+sqlite> select name from students order by name desc;
+Arek
+Ajay
+sqlite> select * from students,dept;
+1|Ajay|Delhi|10|10|CSE
+1|Ajay|Delhi|10|20|ECE
+1|Ajay|Delhi|10|30|MEC
+2|Arek|Poland|10|10|CSE
+2|Arek|Poland|10|20|ECE
+2|Arek|Poland|10|30|MEC
+sqlite> select * from students,dept where students.deptno=dept.deptno;
+1|Ajay|Delhi|10|10|CSE
+2|Arek|Poland|10|10|CSE
+sqlite> select * from students join dept on students.deptno=dept.deptno;
+1|Ajay|Delhi|10|10|CSE
+2|Arek|Poland|10|10|CSE
+sqlite> select * from students S join dept D on S.deptno=D.deptno;
+1|Ajay|Delhi|10|10|CSE
+2|Arek|Poland|10|10|CSE
+sqlite> select *
+   ...> from students S,dept D
+   ...> where S.deptno=D.deptno
+   ...> ;
+1|Ajay|Delhi|10|10|CSE
+2|Arek|Poland|10|10|CSE
+
+
+sqlite> select city from students group by city;
+Delhi
+Poland
+sqlite> select count(*),city from students group by city;
+1|Delhi
+1|Poland
+sqlite> select count(*),city from students group by city having count(*)>=1;
+1|Delhi
+1|Poland
+
+sqlite> select count(*) from students;
+2
+sqlite> select max(roll) from students;
+2
+sqlite> select min(roll) from students;
+1
+sqlite> select sum(roll) from students;
+3
+sqlite> select avg(roll) from students;
+1.5
+
+sqlite> select * from students where city='Poland' union select * from students where city='Delhi';
+1|Ajay|Delhi|10
+2|Arek|Poland|10
+sqlite> select * from students where city='Poland' intersect select * from students where city='Delhi';
+sqlite> select * from students where city='Poland' except select * from students where city='Delhi';
+2|Arek|Poland|10
+
+sqlite> select * from dept;
+10|CSE
+20|ECE
+30|MEC
+sqlite> insert into dept values(60,'EEE');
+sqlite> select * from dept;
+10|CSE
+20|ECE
+30|MEC
+60|EEE
+sqlite> delete from dept where dname='EEE';
+sqlite> select * from dept;
+10|CSE
+20|ECE
+30|MEC
+sqlite> select * from dept;
+10|CSE
+20|ECE
+30|MEC
+sqlite> update dept set dname='ABC' where deptno=30;
+sqlite> select * from dept;
+10|CSE
+20|ECE
+30|ABC
+
+
