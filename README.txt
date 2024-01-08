@@ -37,3 +37,4 @@
 // ReverseEchoServer+Client - łączy klienta z serwerem i odsyła wysłany ciąg znaków w klawiaturze w formie odwróconej(Socket)
 // MultiUserReverseEcho+Clients - to samo co poprzednio, ale łączy wielu klienta z serwerem(dzięki wielowątkowości/Threads) i odsyła im wysłany ciąg znaków w klawiaturze w formie odwróconej(Socket),wyświetlając ilość połączonych klientów
 // UdpTypeServer+DatagramClient - łączy klienta z serwerem i odsyła wysłany ciąg znaków w klawiaturze w formie odwróconej(tuatj korzystamy z form DatagramSocket i DataGramPacket)
+//JDBC_usingSQLite - ćwiczenie użycia JBDC i SQLite - odczytywanie i modyfikacja bazy danych.
