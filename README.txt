@@ -38,4 +38,5 @@
 // MultiUserReverseEcho+Clients - to samo co poprzednio, ale łączy wielu klienta z serwerem(dzięki wielowątkowości/Threads) i odsyła im wysłany ciąg znaków w klawiaturze w formie odwróconej(Socket),wyświetlając ilość połączonych klientów
 // UdpTypeServer+DatagramClient - łączy klienta z serwerem i odsyła wysłany ciąg znaków w klawiaturze w formie odwróconej(tuatj korzystamy z form DatagramSocket i DataGramPacket)
 //JDBC_usingSQLite - ćwiczenie użycia JBDC i SQLite - krótko o Bazach danych, odczytywanie i modyfikacja bazy danych przy pomocy czystego SQLite(SQLite/sqlite3.exe i JBDC (Używam przykładowej 2tabelowej(students, dept) bazy danych umieszczonej w SQLite/Univ.db ze studentami i odpowiadającymi oddziałami)
+//AbstractWindowToolkit - Abstract Window Tool - ćwiczenie prostych elementów jednego z GUI dla JAVY(przycisk,textfield, okienko).
 
