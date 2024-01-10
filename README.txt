@@ -40,4 +40,5 @@
 //JDBC_usingSQLite - ćwiczenie użycia JBDC i SQLite - krótko o Bazach danych, odczytywanie i modyfikacja bazy danych przy pomocy czystego SQLite(SQLite/sqlite3.exe i JBDC (Używam przykładowej 2tabelowej(students, dept) bazy danych umieszczonej w SQLite/Univ.db ze studentami i odpowiadającymi oddziałami)
 //AbstractWindowToolkit - Abstract Window Tool - ćwiczenie prostych elementów jednego z GUI dla JAVY(przycisk,textfield, okienko).
 //AbstractWindowToolkit2 - AWT cd. - ćwiczenie checkboxów, prosta gra papier,kamień nożyce.
+//AbstractWindowToolkit3 - AWT cd. - ćwiecznie scrollbarów, prosty konifgurator kolorów za pomocą suwaków RGB i wyświetlenie gotowego kodu RGB w polu tekstowym.
 
