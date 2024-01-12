@@ -42,4 +42,4 @@
 //AbstractWindowToolkit2 - AWT cd. - ćwiczenie checkboxów, prosta gra papier,kamień nożyce.
 //AbstractWindowToolkit3 - AWT cd. - ćwiecznie scrollbarów, prosty konifgurator kolorów za pomocą suwaków RGB i wyświetlenie gotowego kodu RGB w polu tekstowym.
 //Swing - ćwiczenie SWINGA - prosty licznik kliknięć, oraz textFieldy tylko dla SWINGa JFormattedTextField, które możemy ograniczać do podania tylko numerów,dat itp. a przyciski mogą mieć swój własny wygląd setIcon,ImageIcon.
-
+//Swing2 - cd. - przedstawienie ścieżki i plików za pomocą JTree
