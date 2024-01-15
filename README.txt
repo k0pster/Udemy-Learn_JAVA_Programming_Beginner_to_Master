@@ -44,4 +44,4 @@
 //Swing - ćwiczenie SWINGA - prosty licznik kliknięć, oraz textFieldy tylko dla SWINGa JFormattedTextField, które możemy ograniczać do podania tylko numerów,dat itp. a przyciski mogą mieć swój własny wygląd setIcon,ImageIcon.
 //Swing2 - cd. - przedstawienie ścieżki i plików za pomocą JTree
 //JavaFX - podstawy JavaFX - Button, Scene, Stage, Tooltip, EventHandler.
-//JavaFX2 - 
+//JavaFX2 - cd. - prosty formInput. Wpisywanie danym klienta w formularzu, zapis do pliku, odczyt z pliku.
